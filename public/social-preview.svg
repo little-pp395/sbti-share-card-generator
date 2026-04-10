@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="40" x2="1180" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" />
+      <stop offset="1" stop-color="#111827" />
+    </linearGradient>
+    <radialGradient id="glow-coral" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(234 126) rotate(33.6) scale(312 220)">
+      <stop stop-color="#FF6B6B" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#FF6B6B" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-purple" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1064 146) rotate(115.2) scale(356 288)">
+      <stop stop-color="#8B5CF6" stop-opacity="0.2" />
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="rgba(255,255,255,0.08)" />
+    </pattern>
+    <filter id="shadow" x="0" y="0" width="1280" height="640" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="18" stdDeviation="30" flood-color="rgba(0,0,0,0.28)" />
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)" />
+  <rect width="1280" height="640" fill="url(#glow-coral)" />
+  <rect width="1280" height="640" fill="url(#glow-purple)" />
+  <rect width="1280" height="640" fill="url(#dots)" opacity="0.45" />
+
+  <g opacity="0.95">
+    <rect x="72" y="72" width="136" height="40" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.1)" />
+    <text x="140" y="98" text-anchor="middle" font-size="16" font-family="'IBM Plex Mono', 'Courier New', monospace" letter-spacing="2" fill="#F8FAFC">OPEN SOURCE</text>
+  </g>
+
+  <text x="72" y="196" font-size="72" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">
+    <tspan x="72" dy="0">SBTI Share Card</tspan>
+    <tspan x="72" dy="78">Generator</tspan>
+  </text>
+
+  <text x="72" y="316" font-size="27" font-family="'Space Grotesk', Arial, sans-serif" fill="rgba(248,250,252,0.82)">
+    <tspan x="72" dy="0">Open-source social share card generator</tspan>
+    <tspan x="72" dy="38">for absurd personality quiz results</tspan>
+  </text>
+
+  <g>
+    <rect x="72" y="384" width="132" height="42" rx="21" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" />
+    <text x="138" y="411" text-anchor="middle" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">Live Preview</text>
+
+    <rect x="220" y="384" width="126" height="42" rx="21" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" />
+    <text x="283" y="411" text-anchor="middle" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">PNG Export</text>
+
+    <rect x="362" y="384" width="128" height="42" rx="21" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)" />
+    <text x="426" y="411" text-anchor="middle" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">Open Source</text>
+  </g>
+
+  <text x="72" y="542" font-size="24" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#FDE68A">
+    Fork it. Restyle it. Export PNGs.
+  </text>
+  <text x="72" y="580" font-size="22" font-family="'IBM Plex Mono', 'Courier New', monospace" fill="rgba(248,250,252,0.7)">
+    sbtitest.co
+  </text>
+
+  <g filter="url(#shadow)">
+    <g transform="translate(822 116) rotate(-9)">
+      <rect width="280" height="362" rx="28" fill="#121826" />
+      <rect x="18" y="18" width="244" height="326" rx="22" fill="#1F2A44" />
+      <rect x="32" y="34" width="90" height="28" rx="14" fill="#F8F4EC" />
+      <text x="77" y="53" text-anchor="middle" font-size="14" font-family="'IBM Plex Mono', 'Courier New', monospace" letter-spacing="2" fill="#111827">MALO</text>
+      <text x="32" y="122" font-size="38" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">Chaos</text>
+      <text x="32" y="162" font-size="38" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">Strategist</text>
+      <text x="32" y="198" font-size="17" font-family="'IBM Plex Mono', 'Courier New', monospace" fill="rgba(248,250,252,0.72)">You plan too much to be random</text>
+      <rect x="32" y="232" width="176" height="88" rx="20" fill="#FF6B6B" />
+      <text x="54" y="268" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">Launches odd ideas</text>
+      <text x="54" y="295" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">like they were always</text>
+      <text x="54" y="322" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">part of the plan.</text>
+    </g>
+
+    <g transform="translate(930 86)">
+      <rect width="304" height="392" rx="30" fill="#F8F4EC" />
+      <rect x="18" y="18" width="268" height="356" rx="24" fill="#F4E7D2" />
+      <rect x="34" y="34" width="96" height="30" rx="15" fill="#111827" />
+      <text x="82" y="54" text-anchor="middle" font-size="14" font-family="'IBM Plex Mono', 'Courier New', monospace" letter-spacing="2" fill="#F8FAFC">OJBK</text>
+      <text x="34" y="130" font-size="42" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">Deadline</text>
+      <text x="34" y="174" font-size="42" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">Acrobat</text>
+      <text x="34" y="210" font-size="17" font-family="'IBM Plex Mono', 'Courier New', monospace" fill="rgba(17,24,39,0.66)">Suspiciously calm under pressure</text>
+      <rect x="34" y="246" width="182" height="94" rx="22" fill="#F59E0B" />
+      <text x="56" y="284" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">Ships on time,</text>
+      <text x="56" y="311" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">improvises in public,</text>
+      <text x="56" y="338" font-size="18" font-family="'Space Grotesk', Arial, sans-serif" fill="#111827">still looks curated.</text>
+    </g>
+
+    <g transform="translate(1048 170) rotate(8)">
+      <rect width="244" height="324" rx="28" fill="#0F172A" />
+      <rect x="16" y="16" width="212" height="292" rx="22" fill="#1F2D3D" />
+      <rect x="28" y="30" width="96" height="28" rx="14" fill="#DCFCE7" />
+      <text x="76" y="49" text-anchor="middle" font-size="13" font-family="'IBM Plex Mono', 'Courier New', monospace" letter-spacing="2" fill="#111827">YOUWU</text>
+      <text x="28" y="112" font-size="32" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">Mystic</text>
+      <text x="28" y="148" font-size="32" font-weight="700" font-family="'Space Grotesk', Arial, sans-serif" fill="#F8FAFC">Operator</text>
+      <text x="28" y="180" font-size="15" font-family="'IBM Plex Mono', 'Courier New', monospace" fill="rgba(248,250,252,0.72)">Half intuition, half spreadsheet</text>
+      <rect x="28" y="212" width="150" height="80" rx="20" fill="#22C55E" />
+      <text x="48" y="246" font-size="16" font-family="'Space Grotesk', Arial, sans-serif" fill="#052E16">Collects odd signals</text>
+      <text x="48" y="270" font-size="16" font-family="'Space Grotesk', Arial, sans-serif" fill="#052E16">and spots patterns</text>
+      <text x="48" y="294" font-size="16" font-family="'Space Grotesk', Arial, sans-serif" fill="#052E16">too early.</text>
+    </g>
+  </g>
+</svg>
