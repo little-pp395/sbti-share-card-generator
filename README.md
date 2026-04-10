@@ -14,6 +14,7 @@ It is designed to be:
 - easy to run locally
 - easy to fork for other quiz, meme, and result-card projects
 - useful on its own without exposing the full product
+- compatible with a small optional data pack for extension work
 
 The full interactive SBTI test lives on [sbtitest.co](https://sbtitest.co).
 
@@ -54,6 +55,11 @@ app/
 components/
   share-card-builder.tsx
   share-card-preview.tsx
+data/
+  sbti_questions_31.json
+  sbti_results_overview_27.json
+docs/
+  sbti_archive.md
 lib/
   presets.ts
   share-card.ts
@@ -88,17 +94,31 @@ Edit [lib/presets.ts](./lib/presets.ts) to add or swap type presets.
 
 The current MVP renders cards as SVG and exports PNG through Canvas on the client. That keeps deployment simple and avoids adding a backend image service too early.
 
+## Data Files
+
+This repository can optionally include a small static data pack for reference and future integration work.
+
+- [data/sbti_questions_31.json](./data/sbti_questions_31.json) is the canonical question-bank source in this repo
+- [data/sbti_results_overview_27.json](./data/sbti_results_overview_27.json) is the canonical result metadata source in this repo
+- [docs/sbti_archive.md](./docs/sbti_archive.md) is a human-readable archive and is not used as runtime input
+
+Rules:
+
+- JSON is the single source of truth for structured quiz data kept in this repository
+- Markdown in `docs/` is reference material only
+- CSV exports are intentionally excluded to avoid duplicate sources drifting over time
+
 ## Scope
 
 This repository does not include:
 
-- the full quiz logic
-- the question bank
+- the full interactive quiz flow
+- the scoring or type-matching engine
 - user accounts
 - payments
 - backend systems
 
-It is intentionally focused on the reusable share-card piece.
+It is intentionally focused on the reusable share-card piece, with a small optional reference dataset for extension work.
 
 ## Contributing
 

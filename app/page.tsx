@@ -1,5 +1,9 @@
 import { ShareCardBuilder } from "@/components/share-card-builder";
-import { sbtiPresets } from "@/lib/presets";
+import {
+  sbtiPresets,
+  sbtiQuestionCount,
+  sbtiResultCount
+} from "@/lib/presets";
 
 export default function Home() {
   return (
@@ -19,6 +23,9 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-wrap gap-3 lg:justify-end">
+            <div className="flex items-center rounded-full border border-black/10 bg-white px-4 py-3 text-sm font-medium text-ink">
+              {sbtiQuestionCount} questions / {sbtiResultCount} results
+            </div>
             <a
               className="rounded-full bg-ink px-5 py-3 text-sm font-medium text-white transition hover:bg-black"
               href="https://sbtitest.co"
